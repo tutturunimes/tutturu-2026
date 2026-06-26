@@ -2,6 +2,12 @@
   command = "npm run build"
   publish = ".next"
 
+
+[[redirects]]
+  from = "/*"
+  to = "index.html"
+  status = 200
+  
 [build.environment]
   # optional: pin node version for Netlify if required
   NODE_VERSION = "18"
