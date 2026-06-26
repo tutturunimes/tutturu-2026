@@ -20,20 +20,7 @@ export default function Document() {
 
 
      {/* <!-- Google tag (gtag.js) my.id --> */}     
-{/* <Script async src="https://www.googletagmanager.com/gtag/js?id=G-06PQQDD65L"></Script>
-<Script strategy="afterInteractive" id='ga2-google-script'>
-  {`
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)}
-  gtag('js', new Date());
-
-  gtag('config', 'G-06PQQDD65L');
-  `}
-</Script> */}
-
-
-{/* <!-- Google tag (gtag.js) web.id --> */}
-<Script async src="https://www.googletagmanager.com/gtag/js?id=G-NJSET8BDQP"></Script>
+<Script async src="https://www.googletagmanager.com/gtag/js?id=G-06PQQDD65L"></Script>
 <Script strategy="afterInteractive" id='ga2-google-script'>
   {`
   window.dataLayer = window.dataLayer || [];
@@ -43,6 +30,19 @@ export default function Document() {
   gtag('config', 'G-06PQQDD65L');
   `}
 </Script>
+
+
+{/* <!-- Google tag (gtag.js) web.id --> */}
+{/* <Script async src="https://www.googletagmanager.com/gtag/js?id=G-NJSET8BDQP"></Script>
+<Script strategy="afterInteractive" id='ga2-google-script'>
+  {`
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)}
+  gtag('js', new Date());
+
+  gtag('config', 'G-06PQQDD65L');
+  `}
+</Script> */}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6330491343267680"></script>
   </Head>
       <body>

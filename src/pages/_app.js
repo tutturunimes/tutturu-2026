@@ -50,5 +50,5 @@ App.getInitialProps = async () => {
   const menu = {
     siteName:"TutturuNime"
   }
-  return {siteInfo : {menu   }  }
+  return {siteInfo : {menu }  }
 };
